@@ -27,7 +27,7 @@ export default function Home() {
 
   const undo = useUndo();
   const redo = useRedo();
-  const imageInputRef = useRef<HTMLCanvasElement>(null);
+  const imageInputRef = useRef<HTMLInputElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const fabricRef = useRef<fabric.Canvas | null>(null);
   const shapeRef = useRef<fabric.Object | null>(null);
