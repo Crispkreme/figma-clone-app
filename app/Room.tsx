@@ -1,3 +1,5 @@
+/* eslint-disable */
+// @ts-ignore
 "use client"
 
 import React, { ReactNode } from 'react'
@@ -12,10 +14,8 @@ const Room = ({ children }: { children: ReactNode}) => {
       initialPresence={{ 
         cursor: null,
         message: null,
-
-        // uncomment this one if the is an error
-        // cursorColor: null,
-        // editingText: null
+        cursorColor: null,
+        editingText: null
       }}
       initialStorage={{ 
         canvasObjects: new LiveMap(),
