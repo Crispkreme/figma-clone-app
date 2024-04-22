@@ -1,5 +1,4 @@
-/* eslint-disable */
-// @ts-ignore
+// @ts-nocheck
 "use client"
 
 import React, { ReactNode } from 'react'
