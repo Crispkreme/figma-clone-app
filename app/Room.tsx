@@ -11,8 +11,11 @@ const Room = ({ children }: { children: ReactNode}) => {
     <RoomProvider id='my-room' 
       initialPresence={{ 
         cursor: null,
-        cursorColor: null,
-        editingText: null
+        message: null,
+
+        // uncomment this one if the is an error
+        // cursorColor: null,
+        // editingText: null
       }}
       initialStorage={{ 
         canvasObjects: new LiveMap(),
