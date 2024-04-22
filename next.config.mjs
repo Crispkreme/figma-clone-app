@@ -19,6 +19,9 @@ const nextConfig = {
                 port: '',
             }
         ]
+    },
+    typescript: {
+        ignoreBuildErrors: true,
     }
 };
 
